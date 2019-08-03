@@ -22,14 +22,14 @@ class Navbar extends React.Component {
 
         <div className="navbar-link-container">
           <ul>
+            <NavLink to="/" exact>
+              <li><span>Home</span></li>
+            </NavLink>
             <NavLink to="/about" exact>
               <li><span>About</span></li>
             </NavLink>
             <NavLink to="/portfolio" exact>
               <li><span>Portfolio</span></li>
-            </NavLink>
-            <NavLink to="/contact" exact>
-              <li><span>Contact</span></li>
             </NavLink>
             <NavLink to="/resume" exact>
               <li><span>Resume</span></li>
