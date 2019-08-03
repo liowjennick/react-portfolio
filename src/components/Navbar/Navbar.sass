@@ -1,0 +1,40 @@
+#navbar
+  display: flex
+  align-items: center
+  .navbar-title-container
+    flex-grow: 1
+    a
+      display: inline-block
+    h1
+      margin: 0
+      font-family: 'Bungee', cursive
+      font-size: 45px
+      line-height: 1
+      color: black
+      display: inline
+    h3
+      margin: 0
+      font-weight: 400
+      font-family: 'Ubuntu Condensed', san-serif
+      font-size: 15px
+      color: black
+  .navbar-link-container
+    ul
+      display: flex
+      align-items: center
+      padding: 0
+      list-style: none
+      a
+        color: black
+        margin: 0 5px
+        padding: 8px 15px
+        font-family: heiseikaku
+        font-weight: bold
+        line-height: 1
+        font-size: 12px
+        transition: background 0.3s
+        &:hover
+          background-color: rgb(245, 245, 245)
+        &.active
+          background-color: black
+          color: white

@@ -1,0 +1,65 @@
+@import '../variables.sass'
+
+#portfolio-item-list
+    position: relative
+    h1
+        font-family: 'flood'
+        line-height: 1
+        font-size: 60px
+        text-align: center
+        margin: 0 0 20px 0
+    .portfolio-item-list
+        display: flex
+        flex-wrap: wrap
+        .portfolio-item
+            padding: 10px 10px 10px 0
+            flex: 0 0 33.33%
+            box-sizing: border-box
+            margin-bottom: 20px
+            .portfolio-item-content
+                position: relative
+                box-shadow: 0 0 0px 1px lightgrey
+                padding-bottom: 10px
+                height: 100%
+                .portfolio-image-container
+                    font-size: 0
+                    img
+                        width: 100%
+                .portfolio-title-container
+                    padding-bottom: 20px
+                    padding: 0 10px 0px 10px
+                    h2
+                        line-height: 1
+                        font-weight: 900
+                        margin: 10px 0 5px 0
+                    .subtitle
+                        margin: 0
+                        font-family: 'Ubuntu Condensed'
+                        line-height: 1
+                        color: rgb(139, 139, 139)
+                        border-bottom: 0.5px solid lightgray
+                        padding-bottom: 10px
+                .portfolio-item-description
+                    color: dimgray
+                    font-family: 'Ubuntu'
+                    line-height: 1.5
+                    padding: 10px
+                    p
+                        margin: 0
+                        color: black
+                        padding-bottom: 40px
+                        letter-spacing: 1.2px
+                .portfolio-cta
+                    background-color: black
+                    color: white
+                    font-family: 'Ubuntu Condensed'
+                    line-height: 1
+                    padding: 10px 20px
+                    margin-left: 10px
+                    display: inline-block
+                    cursor: pointer
+                    transition: transform 0.1s
+                    position: absolute
+                    bottom: 10px
+                    &:hover
+                        transform: scale(1.05)
