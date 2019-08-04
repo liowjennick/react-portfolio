@@ -1,35 +1,55 @@
 #aboutpage
+    .mobile-flex-column-reverse
+        @media screen and (max-width: 550px)
+            display: flex
+            flex-direction: column-reverse
     .features-list
         display: flex
+        flex-wrap: wrap
         .features-container
             flex: 0 0 25%
             box-sizing: border-box
             padding: 10px
-        .feature-item
-            text-align: center
-            .feature-icon
-                .MuiSvgIcon-root
-                    font-size: 5.5em
-            .feature-description
-                margin-top: 10px
-                h2
-                    margin: 0
-                    font-size: 40px
-                    font-family: 'flood'
-                    line-height: 1
-                p
-                    margin: 5px 0 0 0
-                    color: rgb(139, 139, 139)
-                    padding: 0 20px 20px 40px
-                    font-family: 'Ubuntu'
-                    letter-spacing: 1.2px
-                    line-height: 1.5
+            @media screen and (max-width: 790px)
+                flex: 0 0 50%
+                padding-bottom: 0
+                padding-top: 0
+            .feature-item
+                text-align: center
+                .feature-icon
+                    .MuiSvgIcon-root
+                        font-size: 5.5em
+                .feature-description
+                    margin-top: 10px
+                    h2
+                        margin: 0
+                        font-size: 1.5em
+                        font-family: 'flood'
+                        line-height: 1
+                        @media screen and (max-width: 550px)
+                            font-size: 1em
+                    p
+                        margin: 5px 0 0 0
+                        color: rgb(139, 139, 139)
+                        padding: 0 5px 20px 5px
+                        font-family: 'Ubuntu'
+                        letter-spacing: 1.2px
+                        line-height: 1.5
+                        font-size: 0.8em
+                        @media screen and (max-width: 550px)
+                            padding-bottom: 5px
+                            font-size: 0.5em
+
     .row-container
         display: flex
+        @media screen and (max-width: 550px)
+            flex-direction: column
         .skill-lists
             flex: 1 0 60%
             padding: 10px
             box-sizing: border-box
+            @media screen and (max-width: 550px)
+                flex: 1
             .skill-container
                 margin-bottom: 10px
                 .skill-item
@@ -38,7 +58,8 @@
                     background-color: rgb(245, 245, 245)
                     box-shadow: 0 0 0.5px 0px dimgrey
                     .skill-bar-name-container
-                        flex: 0 0 10%
+                        flex: 0 0 20%
+                        max-width: 107px
                         background-color: black
                         color: white
                         font-weight: bold
@@ -64,11 +85,15 @@
             flex: 1 0 40%
             padding: 10px
             box-sizing: border-box
+            @media screen and (max-width: 550px)
+                flex: 1
             .profile-content
                 .image-container
                     width: 250px
                     display: block
                     margin: 0 auto
+                    @media screen and (max-width: 750px)
+                        width: 100%
                     img
                         width: 100%
                         box-shadow: 0 0 1px 1px darkgrey
@@ -77,19 +102,24 @@
                     text-align: center
                     display: block
                     margin: 0 auto
+                    @media screen and (max-width: 830px)
+                        width: 100%
                     h1
                         margin: 0
                         font-family: 'Roboto'
+                        font-size: 1.5em
                     h2
                         margin: 0
-                        font-family: 'heiseikaku'
+                        font-family: 'Ubuntu Condensed'
                         color: #8b8b8b
-                        font-size: 16px
+                        font-size: 0.7em
                         margin-bottom: 15px
                         line-height: 1
+                        font-weight: 100
                     p
                         margin: 0
                         font-family: 'Ubuntu'
                         letter-spacing: 1.1px
                         line-height: 1.4
+                        font-size: 0.7em
 

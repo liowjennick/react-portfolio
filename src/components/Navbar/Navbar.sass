@@ -1,8 +1,12 @@
 #navbar
   display: flex
   align-items: center
+  @media screen and (max-width: 550px)
+    flex-direction: column
   .navbar-title-container
     flex-grow: 1
+    @media screen and (max-width: 550px)
+      text-align: center
     a
       display: inline-block
     h1
@@ -19,11 +23,13 @@
       font-size: 15px
       color: black
   .navbar-link-container
+    transition: all 0.5s
     ul
       display: flex
       align-items: center
       padding: 0
       list-style: none
+      // transition: all 0.5s
       a
         color: black
         margin: 0 5px
@@ -38,3 +44,23 @@
         &.active
           background-color: black
           color: white
+
+  &.fixed
+    .navbar-title-container
+      @media screen and (max-width: 550px)
+        padding-bottom: 60px
+
+    .navbar-link-container
+      @media screen and (max-width: 550px)
+        position: fixed
+        background-color: white
+        top: 0px
+        left: 0
+        width: 100%
+        box-shadow: 0 0 3px 0px rgb(245, 245, 245)
+        z-index: 100
+        ul
+          width: 320px
+          height: 60px
+          margin: 0 auto
+

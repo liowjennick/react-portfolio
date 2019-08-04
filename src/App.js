@@ -4,14 +4,23 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.sass'
 
 import Navbar from './components/Navbar/Navbar'
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
-import PortfolioPage from './pages/PortfolioPage'
+import HomePage from './pages/Home/HomePage'
+import AboutPage from './pages/About/AboutPage'
+import PortfolioPage from './pages/Portfolio/PortfolioPage'
 
 
 class App extends React.Component {
   constructor () {
     super()
+    window.addEventListener('scroll', () => {
+      if (document.querySelector('.navbar-link-container').offsetTop < window.pageYOffset) {
+        document.querySelector('#navbar').classList.add('fixed')
+      }
+
+      if (document.querySelector('.navbar-link-container').offsetHeight > window.pageYOffset) {
+        document.querySelector('#navbar').classList.remove('fixed')
+      }
+    })
   }
 
   render () {

@@ -4,7 +4,7 @@ const portfolios = [
         subtitle: 'Web Developer',
         tech: 'VueJs, NodeJs, Express',
         description: 'Allows customers to order their favourite chicken meals without waiting in line with KFC Delivery, or pick up their order at a preferred KFC store with KFC Self Collect.',
-        imageLink: 'https://secureservercdn.net/166.62.111.64/45c.98b.myftpupload.com/wp-content/uploads/2018/04/Web-Design-Image-1.jpg?time=1564510610',
+        imageLink: 'kfc-delivery.jpg',
         siteLink: 'https://kfc.com.my'
     },
     {
@@ -12,7 +12,7 @@ const portfolios = [
         subtitle: 'Frontend Developer',
         tech: 'VueJs, NodeJs, Express',
         description: 'KFC\'s latest product and offers are featured here with each product having their own dedicated landing page to increase conversion.',
-        imageLink: 'https://secureservercdn.net/166.62.111.64/45c.98b.myftpupload.com/wp-content/uploads/2018/04/Web-Design-Image-1.jpg?time=1564510610',
+        imageLink: 'kfc-dinein.jpg',
         siteLink: 'https://dinein.kfc.com.my/'
     },
     {
@@ -20,7 +20,7 @@ const portfolios = [
         subtitle: 'Web Developer',
         tech: 'Laravel',
         description: 'Ikea Family Membership portal sharing the latest promotions and offers. Customers are also able to make appointments and take part in various activities / contest.',
-        imageLink: 'https://secureservercdn.net/166.62.111.64/45c.98b.myftpupload.com/wp-content/uploads/2018/04/Web-Design-Image-1.jpg?time=1564510610',
+        imageLink: 'ikea-family.jpg',
         siteLink: 'https://family.ikea.com.my'
     },
     {
@@ -28,7 +28,7 @@ const portfolios = [
         subtitle: 'Maintainer',
         tech: 'JS, Php',
         description: 'Ikea Smales Membership for children age 4 - 12 years old. Seasonal magazines, activities and offers for Smales members can be found here.',
-        imageLink: 'https://secureservercdn.net/166.62.111.64/45c.98b.myftpupload.com/wp-content/uploads/2018/04/Web-Design-Image-1.jpg?time=1564510610',
+        imageLink: 'smales.jpg',
         siteLink: 'https://www.smales.com.my'
     },
     {
@@ -36,7 +36,7 @@ const portfolios = [
         subtitle: 'Frontend Web Developer',
         tech: '',
         description: 'Gocode focuses on providing coding classes for kids and teens from age 6 to 18 years old. The best way for kids to learn programming is by building things that they love like Games, Websites and Robots.',
-        imageLink: 'https://secureservercdn.net/166.62.111.64/45c.98b.myftpupload.com/wp-content/uploads/2018/04/Web-Design-Image-1.jpg?time=1564510610',
+        imageLink: 'gocode.jpg',
         siteLink: 'http://kids.gocodemy.com'
     }
 ]

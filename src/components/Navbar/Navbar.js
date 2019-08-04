@@ -2,8 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 import './Navbar.sass'
-import HomeIcon from '@material-ui/icons/Home'
-import PortfolioIcon from '@material-ui/icons/Work'
 
 class Navbar extends React.Component {
   constructor () {

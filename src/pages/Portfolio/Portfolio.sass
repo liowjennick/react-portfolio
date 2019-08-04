@@ -1,5 +1,3 @@
-@import '../variables.sass'
-
 #portfolio-item-list
     position: relative
     h1
@@ -8,6 +6,8 @@
         font-size: 60px
         text-align: center
         margin: 0 0 20px 0
+        @media screen and (max-width: 550px)
+            margin-bottom: 0
     .portfolio-item-list
         display: flex
         flex-wrap: wrap
@@ -16,6 +16,15 @@
             flex: 0 0 33.33%
             box-sizing: border-box
             margin-bottom: 20px
+            filter: grayscale(1)
+            transition: all 0.8s
+            @media screen and (max-width: 850px)
+                flex: 0 0 50%
+                filter: none
+            @media screen and (max-width: 550px)
+                flex: 0 0 100%
+            &:hover
+                filter: grayscale(0)
             .portfolio-item-content
                 position: relative
                 box-shadow: 0 0 0px 1px lightgrey
@@ -25,6 +34,7 @@
                     font-size: 0
                     img
                         width: 100%
+                        transition: all 0.5s
                 .portfolio-title-container
                     padding-bottom: 20px
                     padding: 0 10px 0px 10px
