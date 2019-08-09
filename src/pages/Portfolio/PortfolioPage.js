@@ -3,19 +3,15 @@ import './Portfolio.sass'
 import portfolioData from '../../data/portfolios'
 
 class PortfolioPage extends React.Component {
-    constructor () {
-        super()
-    }
-
     getImageUrl (url) {
         return require('../../assets/images/portfolio/' + url)
     }
 
     getPortfolioItems () {
         const portfolioArray = []
-        portfolioData.map(portfolio => {
+        portfolioData.map((portfolio, index) => {
             portfolioArray.push(
-                <div className="portfolio-item">
+                <div className="portfolio-item" key={index}>
                     <div className="portfolio-item-content">
                         <div className="portfolio-image-container">
                             <img src={ require('../../assets/images/portfolio/' + portfolio.imageLink) }/>

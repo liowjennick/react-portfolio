@@ -4,10 +4,6 @@ import { NavLink } from 'react-router-dom'
 import './Navbar.sass'
 
 class Navbar extends React.Component {
-  constructor () {
-    super()
-  }
-
   render () {
     return (
       <div id="navbar">
@@ -29,8 +25,8 @@ class Navbar extends React.Component {
             <NavLink to="/portfolio" exact>
               <li><span>Portfolio</span></li>
             </NavLink>
-            <NavLink to="/resume" exact>
-              <li><span>Resume</span></li>
+            <NavLink to="/contact" exact>
+              <li><span>Contact</span></li>
             </NavLink>
           </ul>
         </div>

@@ -3,15 +3,11 @@ import React from 'react'
 import './Homepage.sass'
 
 class HomePage extends React.Component {
-    constructor () {
-        super()
-    }
-
     render () {
         return (
             <div id="homepage">
                 <div className="image-container">
-                    <img src="http://caldesigngroup.com/wp-content/uploads/2016/02/responsive-animate-2017.gif" />
+                    <img src={require('../../assets/images/home/homepage.png')} />
                 </div>
                 <div className="introduction">
                     <h1>Hello,</h1>

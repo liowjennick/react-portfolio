@@ -37,9 +37,9 @@ class AboutPage extends React.Component {
     getFeaturesList () {
         const featuresArray = []
 
-        featuresData.map(feature => {
+        featuresData.map((feature, index) => {
             featuresArray.push(
-                <div className="features-container">
+                <div className="features-container" key={index}>
                     <div className="feature-item">
                         <div className="feature-description">
                             <h2>{ feature.title }</h2>
@@ -56,10 +56,10 @@ class AboutPage extends React.Component {
     getSkillList () {
         const skillsArray = []
 
-        this.state.skillsDataArray.map(skill => {
+        this.state.skillsDataArray.map((skill, index) => {
             const initialPercentage = skill.percentage
             skillsArray.push(
-                <div className="skill-container">
+                <div className="skill-container" key={index}>
                     <div className="skill-item">
                         <div className="skill-bar-name-container">
                             <span>{ skill.name }</span>

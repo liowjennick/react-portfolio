@@ -7,7 +7,7 @@ import Navbar from './components/Navbar/Navbar'
 import HomePage from './pages/Home/HomePage'
 import AboutPage from './pages/About/AboutPage'
 import PortfolioPage from './pages/Portfolio/PortfolioPage'
-
+import ContactPage from './pages/Contact/ContactPage'
 
 class App extends React.Component {
   constructor () {
@@ -36,6 +36,7 @@ class App extends React.Component {
                 <Route path="/" exact component={HomePage} />
                 <Route path="/about" exact component={AboutPage} />
                 <Route path="/portfolio" exact component={PortfolioPage} />
+                <Route path="/contact" exact component={ContactPage} />
               </Switch>
           </div>
         </Router>
