@@ -1,5 +1,13 @@
 const portfolios = [
     {
+        title: 'Brickmagic Asia',
+        subtitle: 'Frontend Developer',
+        tech: 'VuesJs, Vuex',
+        description: 'LEGO Certified Malaysia E-commerce store. Customers can browse through a wide variety of catalogue from famous franchise from Star Wars, Harry Potter and much more.',
+        imageLink: 'brickmagic.jpg',
+        siteLink: 'https://brickmagic.asia'
+    },
+    {
         title: 'KFC Delivery',
         subtitle: 'Web Developer',
         tech: 'VueJs, NodeJs, Express',

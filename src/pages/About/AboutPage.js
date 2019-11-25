@@ -92,7 +92,7 @@ class AboutPage extends React.Component {
                         <div className="profile-container">
                             <div className="profile-content">
                                 <div className="image-container">
-                                    <img src="https://scontent.fkul8-1.fna.fbcdn.net/v/t1.0-9/12734244_10201428304104829_7947658355828978213_n.jpg?_nc_cat=106&_nc_oc=AQkKgQU6uX3YaXZSo7ZOXVNtfAP4wVlffrq8_XeiKWph9cba1BqYPjyDiJ1s8sQ0zns&_nc_ht=scontent.fkul8-1.fna&oh=7ba483a171c91f7249af9cf0d75b681d&oe=5DD68FA1" />
+                                    <img src={ require("../../assets/images/about/profile_pic.jpg")} />
                                 </div>
                                 <div className="description-container">
                                     <h1>LIOW JEN NICK</h1>
