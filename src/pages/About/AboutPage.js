@@ -96,8 +96,8 @@ class AboutPage extends React.Component {
                                 </div>
                                 <div className="description-container">
                                     <h1>LIOW JEN NICK</h1>
-                                    <h2>Hotelier turned Web Developer</h2>
-                                    <p>Discovered my passion for programming during the middle of 2016 while finishing my Bachelor's of International Hospitality Management. Never looked back ever since.</p>
+                                    <h2>Frontend Web Developer</h2>
+                                    <p>Hospitality graduate turned programmer with a passion for developing Website.</p>
                                 </div>
                             </div>
                         </div>

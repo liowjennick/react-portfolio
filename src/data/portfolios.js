@@ -16,7 +16,7 @@ const portfolios = [
         siteLink: 'https://dinein.kfc.com.my/'
     },
     {
-        title: 'IKEA Family',
+        title: 'IKEA Family MY / SG',
         subtitle: 'Web Developer',
         tech: 'Laravel',
         description: 'Ikea Family Membership portal sharing the latest promotions and offers. Customers are also able to make appointments and take part in various activities / contest.',

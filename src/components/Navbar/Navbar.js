@@ -11,7 +11,7 @@ class Navbar extends React.Component {
           <NavLink to="/" exact>
             <h1>NICK.</h1>
           </NavLink>
-          <h3>FULL-STACK WEB DEVELOPER</h3>
+          <h3>FRONTEND WEB DEVELOPER</h3>
         </div>
 
         <div className="navbar-link-container">
