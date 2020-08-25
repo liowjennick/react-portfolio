@@ -22,6 +22,20 @@ class PortfolioPage extends React.Component {
                         </div>
                         <div className="portfolio-item-description">
                             <p>{ portfolio.description }</p>
+
+
+                            {
+                                (portfolio.iosLink || portfolio.androidLink) &&
+                                    <div className="portfolio-app-icon-container">
+                                        <a href={ portfolio.iosLink } target="_blank" className="ios-link">
+                                            <img src={ require('../../assets/images/app/app-store.png')} />
+                                        </a>
+
+                                        <a href={ portfolio.androidLink } target="_blank" className="android-link">
+                                            <img src={ require('../../assets/images/app/google-play.png') } />
+                                        </a>
+                                    </div>
+                            }
                         </div>
 
                         <a href={ portfolio.siteLink } target="_blank">
