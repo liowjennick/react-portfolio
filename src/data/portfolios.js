@@ -1,7 +1,17 @@
 const portfolios = [
     {
+        title: 'Light Up 7',
+        subtitle: 'Web Development',
+        tech: 'NuxtJs, GSAP',
+        description: 'As a brand activation and marketing agency, we take brand experiences to new heights. Learn more about LU7, our work and how we can transform your business.',
+        iosLink: '',
+        androidLink: '',
+        imageLink: 'lu7.png',
+        siteLink: 'https://www.lightup7.com/'
+    },
+    {
         title: 'Akru Now',
-        subtitle: 'Frontend Developer',
+        subtitle: 'Frontend Web Developer',
         tech: 'NuxtJs, Django',
         description: 'Invest in an intelligent portfolio of diversified global low-cost exchange traded funds, designed to meet your financial future.',
         iosLink: '',
@@ -11,7 +21,7 @@ const portfolios = [
     },
     {
         title: 'Ouch! Free',
-        subtitle: 'Frontend/Mobile App Developer',
+        subtitle: 'Frontend/Mobile App Development',
         tech: 'VueJs, ReactNative, Django',
         description: 'Ouch! is a startup that aims to revolutionize the insurance industry by making purchasing a policy pain-free.',
         iosLink: 'https://apps.apple.com/us/app/ouch-insurance/id1515884229?ls=1',
@@ -21,7 +31,7 @@ const portfolios = [
     },
     {
         title: 'Brickmagic Asia',
-        subtitle: 'Frontend Developer',
+        subtitle: 'Frontend Development',
         tech: 'VuesJs, Vuex',
         description: 'LEGO Certified Malaysia E-commerce store. Customers can browse through a wide variety of catalogue from famous franchise from Star Wars, Harry Potter and much more.',
         iosLink: '',
@@ -31,7 +41,7 @@ const portfolios = [
     },
     {
         title: 'KFC Delivery',
-        subtitle: 'Web Developer',
+        subtitle: 'Web Development',
         tech: 'VueJs, NodeJs, Express',
         description: 'Allows customers to order their favourite chicken meals without waiting in line with KFC Delivery, or pick up their order at a preferred KFC store with KFC Self Collect.',
         iosLink: '',
@@ -41,7 +51,7 @@ const portfolios = [
     },
     {
         title: 'KFC Dine-In Site',
-        subtitle: 'Frontend Developer',
+        subtitle: 'Frontend Development',
         tech: 'VueJs, NodeJs, Express',
         description: 'KFC\'s latest product and offers are featured here with each product having their own dedicated landing page to increase conversion.',
         iosLink: '',
@@ -51,7 +61,7 @@ const portfolios = [
     },
     {
         title: 'IKEA Family MY / SG',
-        subtitle: 'Web Developer',
+        subtitle: 'Web Development',
         tech: 'Laravel',
         description: 'Ikea Family Membership portal sharing the latest promotions and offers. Customers are also able to make appointments and take part in various activities / contest.',
         iosLink: '',
@@ -61,7 +71,7 @@ const portfolios = [
     },
     {
         title: 'IKEA Smales',
-        subtitle: 'Maintainer',
+        subtitle: 'Web Development',
         tech: 'JS, Php',
         description: 'Ikea Smales Membership for children age 4 - 12 years old. Seasonal magazines, activities and offers for Smales members can be found here.',
         iosLink: '',
@@ -71,7 +81,7 @@ const portfolios = [
     },
     {
         title: 'Gocode Kids Coding Academy',
-        subtitle: 'Frontend Web Developer',
+        subtitle: 'Web Development',
         tech: 'Holy Trinity',
         description: 'Gocode focuses on providing coding classes for kids and teens from age 6 to 18 years old. The best way for kids to learn programming is by building things that they love like Games, Websites and Robots.',
         iosLink: '',
